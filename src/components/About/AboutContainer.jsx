@@ -27,7 +27,7 @@ function AboutContainer() {
     <div className='AboutMainContainer'>
       <h2>Qué hacemos</h2>
       <About 
-      img="aboutproject.jpg"
+      img="aboutProject.jpg"
       title="Proyectos"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       />

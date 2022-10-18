@@ -1,0 +1,58 @@
+.AboutMainContainer{
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.AboutMainContainer h2{
+ font-size: 2.5rem;
+ font-weight: 600;
+ margin-bottom: 10vh;
+}
+
+.AboutSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+  width: 70vw;
+  margin-bottom: 10vh;
+}
+
+.AboutImgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+}
+
+.AboutImg{
+  width: 100%;
+  height: 90%;
+}
+
+
+.AboutText{
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+  background-color: #fff;
+  font-size: 1.2rem;
+  
+}
+
+.AboutTextDescription{
+  width: 70%;
+  font-size: 1.1rem;
+}
+
+.separador{
+  width: 50%;
+  height: 10px;
+  border-bottom: 1px solid #1D1D1B;
+}

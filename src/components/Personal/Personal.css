@@ -1,0 +1,9 @@
+.separador{
+  width: 50%;
+  height: 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.personalMainContainer{
+  width: 60%;
+}

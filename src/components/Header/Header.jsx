@@ -44,7 +44,7 @@ function Header() {
         </div>
       </div>
       <div className="headerSpace"></div>
-      <ParticlesBg type="cobweb" color="#00b380" bg={true} />
+      <ParticlesBg type="cobweb" color="#00b380" num={200} bg={true} />
     </header>
   )
 }

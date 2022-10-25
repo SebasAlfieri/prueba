@@ -4,6 +4,8 @@ import Divisor from "./components/NavBar/Divisor"
 import Header from "./components/Header/Header"
 import AboutContainer from "./components/About/AboutContainer"
 import Projects from './components/Projects/ProjectsContainer';
+import PersonalContainer from './components/Personal/PersonalContainer';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       <Header/>
       <AboutContainer/>
       <Projects/>
+      <Footer/>
     </div>
   );
 }

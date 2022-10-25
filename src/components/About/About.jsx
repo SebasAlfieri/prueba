@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function About(props) {
 
-  let { img, title, description, flexDirection, reverseText, textAlign } = props
+  let { img, title, description, flexDirection, reverseText, textAlign, animation } = props
   
-  // const reverseText = {
-  //   alignItems: "flex-end",
-  //   textAlign: "end"
-  // }
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
 
   return (
-    <div className='AboutSection' style={{flexDirection}}>
+    <div data-aos={animation}
+    data-aos-offset="500"
+    data-aos-duration="500" className='AboutSection' style={{flexDirection}}>
         <div className='AboutImgContainer'>
           <div className='AboutImg' style={{backgroundImage: `url(images/${img})`}}></div>
         </div>

@@ -12,16 +12,16 @@ function NavBar() {
       <div className='navBarLinks'>
         <ul>
           <li>
-            <a href="#">Qué hacemos</a>
+            <a href="#about">Qué hacemos</a>
           </li>
           <li>
-            <a href="#">Proyectos</a>
+            <a href="#projects">Proyectos</a>
           </li>
           <li>
-            <a href="#">Quienes somos</a>
+            <a href="#quienesSomos">Quienes somos</a>
           </li>
           <li>
-            <a href="#">Contacto</a>
+            <a href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>

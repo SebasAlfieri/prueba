@@ -25,6 +25,10 @@ header{
   font-size: 18rem;
 }
 
+.headerTitleContainer h2 span{
+  color: #00B380;
+}
+
 .headerTextContainer{
   display: flex;
   flex-direction: column;

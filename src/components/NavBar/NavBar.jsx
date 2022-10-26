@@ -1,12 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./NavBar.css"
 
 function NavBar() {
+
+  const [state, setstate] = useState(false);
+  const changeClass=()=>{
+    const scrollValue=document.documentElement.scrollTop;
+    if(scrollValue>500)
+    {
+      setstate(true);
+    }
+    else{
+      setstate(false);
+    }
+      
+  }
+  window.addEventListener('scroll', changeClass);
+
+
   return (
     <div className='navBarContainer'>
       <div className='navBarTitleContainer'>
         <div className='navBarTitle'>
-          <h1>refle<span>j</span>ar</h1>
+          <div className={state ?"none":"navBarIcon"}></div>
+          <h1 className={state ?"":"none"}>refle<span>j</span>ar</h1>
         </div>
       </div>
       <div className='navBarLinks'>

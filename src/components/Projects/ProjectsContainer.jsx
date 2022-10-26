@@ -1,11 +1,13 @@
 import React from 'react'
 import Project from "./Project"
 import "./Projects.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
   return (
     <div className='projectsMainContainer' id='projects'>
-      <h2>Proyectos</h2>
+      <h2 data-aos="fade-down">Proyectos</h2>
       <div className='projectsContainer'>
         <Project
           title="PIS"

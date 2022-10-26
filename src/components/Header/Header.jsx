@@ -33,7 +33,7 @@ function Header() {
   return (
     <header>
       <div className='headerTitleContainer'>
-        <h2>reflejar</h2>
+        <h2>refle<span>j</span>ar</h2>
       </div>
       <div className='headerTextContainer'>
         <div className='headerTextTop'>

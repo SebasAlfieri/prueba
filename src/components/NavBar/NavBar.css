@@ -24,11 +24,34 @@
   padding: 0;
   line-height: 0;
   color: white;
+
 }
 
-/* .navBarTitle span{
-  color: #00b380;
-} */
+.navBarTitle h1{
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+.navBarIcon{
+  background-image: url(../../../public/logo192.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 90%;
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+@keyframes appear{
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }    
+}
 
 .navBarLinks{
   display: flex;
@@ -78,27 +101,10 @@
   height: 10vh;
 }
 
+span{
+  color: #00B380;
+}
 
-
-
-@keyframes indexLogo{
-  0% {
-      transform: scale(1);
-  }
-
-  10% {
-      transform: scale(1.1);
-  }
-
-  20% {
-      transform: scale(1.0);
-      background-color: rgba(26, 27, 29, 1);
-      border: 2px solid rgba(170, 142, 50, 1);
-  }
-
-  100% {
-      transform: scale(1.5);
-      background-color: rgba(26, 27, 29, 0);
-      border: 2px solid rgba(170, 142, 50, 0);
-  }    
+.none{
+  display: none;
 }

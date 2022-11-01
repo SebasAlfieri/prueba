@@ -1,4 +1,4 @@
-import React,{ Component } from 'react'
+import React,{ useEffect } from 'react'
 import ParticlesBg from 'particles-bg'
 import "./Header.css"
 
@@ -30,6 +30,11 @@ let config = {
 
 
 function Header() {
+
+  useEffect(() => {
+    document.title = `Reflejar`;
+  }, []);
+
   return (
     <header>
       <div className='headerTitleContainer'>

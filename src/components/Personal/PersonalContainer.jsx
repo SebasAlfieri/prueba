@@ -23,7 +23,7 @@ function PersonalContainer() {
       </div>
 
       <div className="personalBottomContainer">
-        <div className="personalBottomLine">
+        <div className="personalBottomLine" style={{marginBottom:"10vh"}}>
           <Personal img="card1.svg" title="Caro Trogliero" />
           <Personal img="card2.svg" title="Mariano Valdez" />
           <Personal img="card3.svg" title="Pili" />

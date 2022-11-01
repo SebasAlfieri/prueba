@@ -43,16 +43,6 @@
   animation-duration: 1s;
 }
 
-@keyframes appear{
-  0% {
-      opacity: 0;
-  }
-
-  100% {
-      opacity: 1;
-  }    
-}
-
 .navBarLinks{
   display: flex;
   width: 45%;
@@ -107,4 +97,15 @@ span{
 
 .none{
   display: none;
+}
+
+
+@keyframes appear{
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }    
 }

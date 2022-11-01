@@ -15,23 +15,22 @@ function AboutContainer() {
       <h2 data-aos="fade-down">Qué hacemos</h2>
       <About 
       animation="fade-left"
-      img="plataformas.svg"
+      img="plataformas.gif"
       title="Plataformas Digitales"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       />
-      <About 
+      <About id='segunda'
       animation="fade-right"
-      img="investigacion.svg"
+      img="investigacion.gif"
       title="Investigación"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       flexDirection="row-reverse"
       reverseText = "flex-end"
       textAlign = "end"
       />
-
-      <About 
+      <About
       animation="fade-left"
-      img="formaciones.svg"
+      img="formaciones.gif"
       title="Formaciones"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       />

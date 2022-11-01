@@ -19,6 +19,7 @@ function Projects() {
           title="PYEPH"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores nostrum vel dolore, nihil debitis repellendus sint laboriosam iste. Quam."/>
       </div>
+      <div className='separador'></div>
     </div>
   )
 }

@@ -6,3 +6,11 @@
   padding: 2%;
   border-radius: 25px
 }
+
+.ContactButton:hover{
+  background-color: #470F4C;
+}
+
+.ContactButton:active{
+  background-color: #795688;
+}

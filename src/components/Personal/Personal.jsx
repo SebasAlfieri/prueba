@@ -14,11 +14,16 @@ function Personal (props) {
       }, [])
     
     return (
-        <div className="card">
-            <img src={({img})} alt={title} />
-            <div className="card-body">
-                <h2 className="card-title">{title}</h2>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quod soluta id ullam, corrupti debitis fugit expedita optio explicabo quia placeat! Officiis id quod facere impedit debitis magni molestiae distinctio.</p>
+        <div className="personalCard" data-aos="fade-up" data-aos-duration="1000">
+            <div className="flip-card-inner">
+                <div class="flip-card-front">
+                    <div className="personalCardImg" style={{backgroundImage: `url(images/${img})`}}></div>
+                </div>
+                <div class="flip-card-back">
+                    <h3>{title}</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iste?</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
             </div>
         </div>
     )

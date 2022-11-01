@@ -14,25 +14,25 @@ function AboutContainer() {
     <div className='AboutMainContainer' id='about'>
       <h2 data-aos="fade-down">Qué hacemos</h2>
       <About 
-      animation="fade-left"
-      img="plataformas.webp"
-      title="Plataformas Digitales"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
-      />
-      <About id='segunda'
-      animation="fade-right"
-      img="investigacion.webp"
-      title="Investigación"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
-      flexDirection="row-reverse"
-      reverseText = "flex-end"
-      textAlign = "end"
+        animation="fade-left"
+        img="plataformas.webp"
+        title="Plataformas Digitales"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       />
       <About
-      animation="fade-left"
-      img="formaciones.webp"
-      title="Formaciones"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
+        animation="fade-right"
+        img="investigacion.webp"
+        title="Investigación"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
+        flexDirection="row-reverse"
+        reverseText = "flex-end"
+        textAlign = "end"
+      />
+      <About
+        animation="fade-left"
+        img="formaciones.webp"
+        title="Formaciones"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       />
       <div className='separador'></div>
     </div>

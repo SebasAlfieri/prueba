@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import '../About/About.css'
 
 
+
 function Personal (props) {
 
     let { img, title } = props

@@ -5,6 +5,7 @@ import '../About/About.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 function PersonalContainer() {
 
   useEffect(() => {

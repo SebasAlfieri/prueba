@@ -15,13 +15,13 @@ function AboutContainer() {
       <h2 data-aos="fade-down">Qué hacemos</h2>
       <About 
       animation="fade-left"
-      img="plataformas.gif"
+      img="plataformas.webp"
       title="Plataformas Digitales"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       />
       <About id='segunda'
       animation="fade-right"
-      img="investigacion.gif"
+      img="investigacion.webp"
       title="Investigación"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       flexDirection="row-reverse"
@@ -30,7 +30,7 @@ function AboutContainer() {
       />
       <About
       animation="fade-left"
-      img="formaciones.gif"
+      img="formaciones.webp"
       title="Formaciones"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos, animi provident sapiente nostrum consequuntur."
       />

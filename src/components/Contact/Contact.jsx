@@ -14,7 +14,8 @@ function Contact(props) {
   return (
     <div data-aos={animation}
     data-aos-offset="500"
-    data-aos-duration="500" className='AboutSection' style={{flexDirection}}>
+    data-aos-duration="500" 
+    className='AboutSection' style={{flexDirection, width:"60vw"}}>
         <div className='AboutImgContainer'>
           <div className='AboutImg' style={{backgroundImage: `url(images/${img})`}}></div>
         </div>
@@ -26,7 +27,7 @@ function Contact(props) {
                 {description}
             </div>
             <div>
-                <button>Contacto</button>
+                <button className='ContactButton'>CTA</button>
             </div> 
         </div>
       </div>

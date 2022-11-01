@@ -1,0 +1,8 @@
+.ContactButton{
+  width: 80%;
+  margin-top: 5vh;
+  background-color: #662483;
+  color: white;
+  padding: 2%;
+  border-radius: 25px
+}

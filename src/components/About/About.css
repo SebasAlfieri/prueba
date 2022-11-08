@@ -12,14 +12,14 @@
  font-size: 2.5rem;
  font-weight: 600;
  margin-bottom: 10vh;
-
+font-weight: bold;
 }
 
 .AboutSection{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70vh;
+  height: fit-content;
   width: 70vw;
   margin-bottom: 10vh;
 }
@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
   width: 65%;
-  height: 100%;
+  height: 700px;
 }
 
 .AboutImg{
@@ -43,14 +43,32 @@
 .AboutText{
   display: flex;
   flex-direction: column;
-  width: 30%;
   background-color: #fff;
-  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+
+.AboutTextTitle{
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 500;
 }
 
 .AboutTextDescription{
-  width: 70%;
-  font-size: 1.1rem;
+  font-size: 20px;
+}
+
+.plataformasDescription{
+  width: 400px;
+}
+
+.investigacionDescription{
+  width: 400px;
+}
+
+.formacionesDescripcion{
+  width: 400px;
 }
 
 .separador{

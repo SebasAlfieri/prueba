@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 function Contact(props) {
 
-  let { img, title, description, flexDirection, reverseText, textAlign, animation } = props
+  let { img, title, description1, description2, flexDirection, reverseText, textAlign, animation } = props
   
   useEffect(() => {
     AOS.init();
@@ -15,16 +15,17 @@ function Contact(props) {
     <div data-aos={animation}
     data-aos-offset="500"
     data-aos-duration="500" 
-    className='AboutSection' style={{flexDirection, width:"60vw"}}>
-        <div className='AboutImgContainer'>
-          <div className='AboutImg' style={{backgroundImage: `url(images/${img})`}}></div>
+    className='ContactSection'>
+        <div className='ContactImgContainer'>
+          <div className='ContactImg' style={{backgroundImage: `url(images/${img})`}}></div>
         </div>
-        <div className='AboutText' style={{alignItems: `${reverseText}`, textAlign: `${textAlign}`}}>
-            <div className='AboutTextTitle'>
+        <div className='ContactText' style={{alignItems: `${reverseText}`, textAlign: `${textAlign}`}}>
+            <div className='ContactTextTitle'>
                 <h3>{title}</h3>
             </div>
-            <div className='AboutTextDescription'>
-                {description}
+            <div className='ContactTextDescription'>
+                <b>{description1}</b>
+                <p>{description2}</p>
             </div>
             <div>
                 <button className='ContactButton'>CTA</button>

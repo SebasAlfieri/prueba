@@ -13,8 +13,8 @@ function PersonalContainer() {
   return (
     <div className="personalMainContainer" id="quienesSomos" data-aos="fade-up" data-aos-duration="1000">
       <div className="personalTextTop">
-        <h2 className="AboutTextTitle">Quiénes somos</h2>
-        <p className="AboutTextDescription">
+        <h2 className="PersonalTextTitle">Quiénes somos</h2>
+        <p className="personalTextTop">
           Somos un grupo interdisciplinario
         </p>
         {/* Chequear texto completo */}
@@ -26,7 +26,7 @@ function PersonalContainer() {
       <div className="personalBottomContainer">
         <div className="personalBottomLine" style={{marginBottom:"10vh"}}>
           <Personal img="card1.svg" title="Caro" />
-          <Personal img="card2.svg" title="Pano" paragraph="salteño, programador, formado en antropología, me gustan los gatos"/>
+          <Personal img="card2.svg" title="Pano" paragraph="Salteño, programador, formado en antropología, me gustan los gatos"/>
           <Personal img="card3.svg" title="Pilita" />
           <Personal img="card4.svg" title="Simón" paragraph="Berazateguense de corazón."/>
         </div>

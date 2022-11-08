@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 function About(props) {
 
-  let { img, title, description, flexDirection, reverseText, textAlign, animation } = props
+  let { img, title, description1, description2, description3, flexDirection, reverseText, textAlign, animation, clase } = props
   
   useEffect(() => {
     AOS.init();
@@ -18,12 +18,14 @@ function About(props) {
         <div className='AboutImgContainer'>
           <div className='AboutImg' style={{backgroundImage: `url(images/${img})`}}></div>
         </div>
-        <div className='AboutText' style={{alignItems: `${reverseText}`, textAlign: `${textAlign}`}}>
+        <div className={clase} style={{alignItems: `${reverseText}`, textAlign: `${textAlign}`}}>
           <div className='AboutTextTitle'>
             <h3>{title}</h3>
           </div>
           <div className='AboutTextDescription'>
-            {description}
+            <p>{description1}</p>
+            <p>{description2}</p>
+            <p>{description3}</p>
           </div> 
         </div>
       </div>

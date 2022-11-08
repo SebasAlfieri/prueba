@@ -14,15 +14,16 @@ header{
   }
 
 .headerTitleContainer{
-  width: 60%;
-  height: 60%;
+  width: 1200px;
+  height: 500px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .headerTitleContainer h2{
-  font-size: 18rem;
+  font-size: 20rem;
 }
 
 .headerTitleContainer h2 span{
@@ -35,19 +36,31 @@ header{
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 30%;
+  height: fit-content;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 22px;
 }
 
 .headerTextTop{
   width: 70%;
-  font-weight: 600;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.headerTextTop b{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.headerTextTop p{
+  margin: 0;
 }
 
 .headerTextBot{
-  width: 70%;
-  color: whitesmoke;
+  width: 900px;
+  font-weight: 300;
+  color: white;
 }
 
 .headerSpace{

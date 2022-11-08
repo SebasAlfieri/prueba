@@ -42,7 +42,7 @@ function Header() {
       </div>
       <div className='headerTextContainer'>
         <div className='headerTextTop'>
-          <p>Contamos historias a través del análisis de datos</p>
+          <b>Contamos historias a través del análisis de datos</b>
           {/* ▼ Acomodar centrar y ver espaciados :) ▼ */}
           <p>Para acercarlos a la comunidad.</p>
           <p>Para la toma de conciencia.</p>

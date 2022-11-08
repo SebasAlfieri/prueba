@@ -17,7 +17,8 @@ function ContactContainer() {
         animation="fade-left"
         img="contact.webp"
         title="Contacto"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minima aut magnam labore officia molestias possimus laboriosam aspernatur iste quos."
+        description="Si tenes datos y queres contar una historia, ¡escribinos! 
+        Si te interesa lo que hacemos, te querés contactar con nosotros. Si te copa la idea metele bala, contactate dale!"
         />
     </div>
   )

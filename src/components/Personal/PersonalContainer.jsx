@@ -15,22 +15,23 @@ function PersonalContainer() {
       <div className="personalTextTop">
         <h2 className="AboutTextTitle">Quiénes somos</h2>
         <p className="AboutTextDescription">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
-          culpa quam et aliquid. Est nesciunt cum, temporibus quod alias
-          necessitatibus ex maxime maiores eligendi laboriosam natus delectus
-          voluptatem earum voluptate!
+          Somos un grupo interdisciplinario
         </p>
+        {/* Chequear texto completo */}
+        <p>Con experiencia en desarrollo de software y ciencias de datos que tiene como principal objetivo desarrollar plataformas que reflejen y relaten diferentes problemáticas sociales (ambientales, políticas, de género, etc).
+          Además, utilizamos nuestro conocimiento técnico para asesorar a organizaciones, investigadores y gobiernos en el proceso de recolección, visualización y análisis de datos.
+          Actualmente nos encontramos desarrollando tres plataformas para diferentes organizaciones y pretendemos generar identidad y visibilidad del grupo como agencia.</p>
       </div>
 
       <div className="personalBottomContainer">
         <div className="personalBottomLine" style={{marginBottom:"10vh"}}>
-          <Personal img="card1.svg" title="Caro Trogliero" />
-          <Personal img="card2.svg" title="Mariano Valdez" />
-          <Personal img="card3.svg" title="Pili" />
-          <Personal img="card4.svg" title="Simón Ayala" />
+          <Personal img="card1.svg" title="Caro" />
+          <Personal img="card2.svg" title="Pano" paragraph="salteño, programador, formado en antropología, me gustan los gatos"/>
+          <Personal img="card3.svg" title="Pilita" />
+          <Personal img="card4.svg" title="Simón" paragraph="Berazateguense de corazón."/>
         </div>
         <div className="personalBottomLine">
-          <Personal img="card5.svg" title="Agustín Collomb" />
+          <Personal img="card5.svg" title="Agu" />
           <Personal img="card6.svg" title="Persona 6" />
           <Personal img="card7.svg" title="Persona 7" />
           <Personal img="card8.svg" title="Persona 8" />

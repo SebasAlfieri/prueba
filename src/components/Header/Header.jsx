@@ -42,10 +42,15 @@ function Header() {
       </div>
       <div className='headerTextContainer'>
         <div className='headerTextTop'>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo sit, architecto sint qui voluptas quidem dolorem tempore reiciendis sapiente doloremque. Odio odit et similique in eligendi saepe consectetur dolor ut tempora. Porro molestiae nostrum beatae unde vitae mollitia animi tenetur distinctio, illum alias id, laboriosam voluptatum temporibus laborum eum aut!</p>
+          <p>Contamos historias a través del análisis de datos</p>
+          {/* ▼ Acomodar centrar y ver espaciados :) ▼ */}
+          <p>Para acercarlos a la comunidad.</p>
+          <p>Para la toma de conciencia.</p>
+          <p>Para la toma de decisiones.</p>
+          <p>Para la incidencia política.</p>
         </div>
         <div className='headerTextBot'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sint rem. Placeat nostrum dolore illo. Quos, voluptatem! Architecto vel nihil, velit quis reprehenderit nostrum quae, unde, iure laudantium possimus dicta.</p>
+        <p>Con el surgimiento de las nuevas tecnologías y con el enorme volumen de datos generados creemos fundamental su análisis y visualización para entender la realidad.</p>
         </div>
       </div>
       <div className="headerSpace"></div>

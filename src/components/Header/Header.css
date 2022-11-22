@@ -42,7 +42,7 @@ header{
 }
 
 .headerTextTop{
-  width: 70%;
+  width: 100%;
   font-weight: 300;
   text-align: center;
   margin-bottom: 10px;
@@ -58,11 +58,57 @@ header{
 }
 
 .headerTextBot{
-  width: 900px;
+  /*width: 900px; */
   font-weight: 300;
   color: white;
 }
 
 .headerSpace{
   height: 10%;
+}
+
+.containerPara {
+  display: flex;
+  width: 600px;
+  height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  overflow: hidden;
+
+}
+
+.containerPara ul {
+  list-style: none;
+  padding-left: 1px;
+  animation: cambio 6s infinite;
+}
+.containerPara ul, p {
+  margin: 0,
+}
+
+@keyframes cambio {
+
+  0%{ margin-top: 0; }
+  15%{ margin-top: 0; }
+
+  25% { margin-top: -40px;}
+  40% { margin-top: -40px;}
+
+  45% { margin-top: -80px;}
+  60% { margin-top: -80px;}
+
+  65% { margin-top: -120px;}
+  80% { margin-top: -120px;}
+
+  85% { margin-top: -40px;}
+  95% { margin-top: -40px;}
+
+  100% { margin-top: 0;}
+
 }

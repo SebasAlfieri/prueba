@@ -17,7 +17,7 @@ function ContactContainer() {
         img="contact.webp"
         title="Contacto"
         description1="Si tenes datos y queres contar una historia, ¡escribinos!"
-        description2="Si te interesa lo que hacemos, te queres contactar con nosotrs. Si te copa la idea metele bala, contactate dale!"
+        /*description2="Si te interesa lo que hacemos, te queres contactar con nosotrs. Si te copa la idea metele bala, contactate dale!"*/
         />
     </div>
   )

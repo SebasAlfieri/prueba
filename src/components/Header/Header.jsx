@@ -13,7 +13,6 @@ const HeaderContainer = styled.header`
   width: 100%;
   color: white;
   height: 90vh;
-  background-color: #6724837b;
 `
 
 const HeaderTitleContainer = styled.div`

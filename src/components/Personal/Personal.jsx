@@ -22,8 +22,6 @@ function Personal (props) {
                 <div className="flip-card-back">
                     <h3>{title}</h3>
                     <p>{paragraph}</p>
-                    {/* ▲ pedir textos para cada uno y acomodar. ver si agregamos un texto en general para todos o separados. por ejemplo su ocupación o puesto ▼*/}
-                    <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
         </div>

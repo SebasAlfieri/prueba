@@ -14,7 +14,7 @@ function Project(props) {
   return (
     <div data-aos="fade-up" data-aos-duration="1000" className='projectCard'>
       <div className='projectCardImage'>
-        <img src="images/eclipse.svg" alt="" />
+        <img src="images/pyeph_logo.png" alt="" />
       </div>
       <div className="projectCardBottom">
         <div className="projectCardTitle">
@@ -23,7 +23,7 @@ function Project(props) {
         <div className="projectCardDescription">
           <p>{description}</p>
         </div>
-        <a  href='#' className="projectCardLink">Ver Proyecto</a>
+        <a  href='https://linktr.ee/pyeph' className="projectCardLink">Ver Proyecto</a>
       </div>
     </div>
   )

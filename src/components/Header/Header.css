@@ -69,9 +69,10 @@ header{
 
 .containerPara {
   display: flex;
+  justify-content: center;
   width: 600px;
   height: 40px;
-  font-size: 40px;
+  font-size: 24px;
   line-height: 40px;
   position: relative;
   right: 0;
@@ -85,29 +86,37 @@ header{
 
 .containerPara ul {
   list-style: none;
-  padding-left: 1px;
-  animation: cambio 6s infinite;
+  /*padding-left: 1px; */
+  animation: cambio 7s infinite;
 }
+.li1 {
+  padding-left: 1px; 
+}
+
 .containerPara ul, p {
   margin: 0,
+}
+.containerPara b{
+  font-weight: 400;
+  font-size: 24px;
 }
 
 @keyframes cambio {
 
   0%{ margin-top: 0; }
-  15%{ margin-top: 0; }
+  10%{ margin-top: 0; }
 
-  25% { margin-top: -40px;}
-  40% { margin-top: -40px;}
+  20% { margin-top: -40px;}
+  30% { margin-top: -40px;}
 
-  45% { margin-top: -80px;}
-  60% { margin-top: -80px;}
+  40% { margin-top: -80px;}
+  50% { margin-top: -80px;}
 
-  65% { margin-top: -120px;}
-  80% { margin-top: -120px;}
+  60% { margin-top: -120px;}
+  70% { margin-top: -120px;}
 
-  85% { margin-top: -40px;}
-  95% { margin-top: -40px;}
+  80% { margin-top: -40px;}
+  90% { margin-top: -40px;}
 
   100% { margin-top: 0;}
 

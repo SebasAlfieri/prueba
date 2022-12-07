@@ -43,20 +43,17 @@ function Header() {
       <div className='headerTextContainer'>
         <div className='headerTextTop'>
           <b>Contamos historias a través del análisis de datos</b>
+          <p>para</p>
           {/* ▼ Acomodar centrar y ver espaciados :) ▼ */}
           <div className='containerPara'>
-            <p>Para</p>
+          <p></p>
             <ul>
-              <li>acercarlos a la comunidad.</li>
-              <li>la toma de conciencia.</li>
-              <li>la toma de decisiones.</li>
-              <li>la incidencia política.</li>
+              <li className='li1'>acercarlos a la comunidad.</li>
+              <li className='li2'>la toma de conciencia.</li>
+              <li className='li3'>la toma de decisiones.</li>
+              <li className='li4'>la incidencia política.</li>
             </ul>      
           </div>
-
-        </div>
-        <div className='headerTextBot'>
-        <p>Con el surgimiento de las nuevas tecnologías y con el enorme volumen de datos generados creemos fundamental su análisis y visualización para entender la realidad.</p>
         </div>
       </div>
       <div className="headerSpace"></div>

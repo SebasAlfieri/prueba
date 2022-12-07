@@ -15,26 +15,28 @@ function PersonalContainer() {
       <div className="personalTextTop">
         <h2 className="PersonalTextTitle">Quiénes somos</h2>
         <p className="personalTextTop">
-          Somos un grupo interdisciplinario
+          Somos un grupo interdisciplinario con experiencia en desarrollo de software, ciencias de datos, docencia, investigación social y trabajo colectivo y en red.
         </p>
-        {/* Chequear texto completo */}
-        <p>Con experiencia en desarrollo de software y ciencias de datos que tiene como principal objetivo desarrollar plataformas que reflejen y relaten diferentes problemáticas sociales (ambientales, políticas, de género, etc).
-          Además, utilizamos nuestro conocimiento técnico para asesorar a organizaciones, investigadores y gobiernos en el proceso de recolección, visualización y análisis de datos.
-          Actualmente nos encontramos desarrollando tres plataformas para diferentes organizaciones y pretendemos generar identidad y visibilidad del grupo como agencia.</p>
-      </div>
+        <p>
+          Nuestro trabajo está atravesado por el aprendizaje constante, el cuidado, el respeto, la colaboración  y el compromiso con los entornos que habitamos.</p>
+        <p>
+          Con el surgimiento de las nuevas tecnologías y con el enorme volumen de datos generados creemos fundamental su análisis y visualización para entender y visibilizar realidades.
+        </p>
+        <p>
+        Por eso ponemos a disposición nuestro conocimiento técnico para asesorar a organizaciones, investigadores y la comunidad en general en el proceso de recolección, visualización y análisis de datos para construir capacidades en conjunto.
+        </p>
 
+      </div>
       <div className="personalBottomContainer">
         <div className="personalBottomLine" style={{marginBottom:"10vh"}}>
-          <Personal img="card1.svg" title="Caro" />
-          <Personal img="card2.svg" title="Pano" paragraph="Salteño, programador, formado en antropología, me gustan los gatos"/>
-          <Personal img="card3.svg" title="Pilita" />
-          <Personal img="card4.svg" title="Simón" paragraph="Berazateguense de corazón."/>
+          <Personal img="card1.jpg" title="Pili Salaberría" paragraph="Feminista. Especialista en gestionar cosas y planificar escenarios posibles. Economista también."/>
+          <Personal img="card2.jpg" title="Agu Collomb" paragraph="Economista y Científico de Datos. Agradecido del blues y la literatura"/>
+          <Personal img="card3.jpg" title="Simón Lisandro Ayala" paragraph="Aficionado a la carpintería. Me doy maña para geolocalizar cosas. Fan de los juegos de mesa. Cientista de Datos. Economista también."/>
+          <Personal img="card4.jpg" title="Pano Valdez" paragraph="Hacker de cabeza; músico y actor de corazón. Antropólogo en potencia. Me gusta la complejidad y el caos. Siempre ututo."/>
         </div>
         <div className="personalBottomLine">
-          <Personal img="card5.svg" title="Agu" />
-          <Personal img="card6.svg" title="Persona 6" />
-          <Personal img="card7.svg" title="Persona 7" />
-          <Personal img="card8.svg" title="Persona 8" />
+          <Personal img="card5.jpg" title="Mati Cena Trebucq" paragraph="Ecologista. Antiespecista. Docente. Agroecología como forma de vida. Economista en deconstrucción."/>
+          <Personal img="card6.jpg" title="Caro Trogliero" paragraph="Obsesionada con la resolución de problemas. Fanática de la multiplicidad de realidades que nos habitan. Feminista. Ashtangui. Cientista de Datos. Economista."/>
         </div>
       </div>
       <div className="separador"></div>

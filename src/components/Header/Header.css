@@ -1,8 +1,8 @@
 .particles-bg-canvas-self {
   background: #662483;
-  }
+}
 
-.headerTitleContainer{
+.headerTitleContainer {
   width: 1200px;
   height: 500px;
   margin-top: 100px;
@@ -11,15 +11,15 @@
   align-items: center;
 }
 
-.headerTitleContainer h2{
+.headerTitleContainer h2 {
   font-size: 20rem;
 }
 
-.headerTitleContainer h2 span{
-  color: #00B380;
+.headerTitleContainer h2 span {
+  color: #00b380;
 }
 
-.headerTextContainer{
+.headerTextContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,29 +30,29 @@
   font-size: 22px;
 }
 
-.headerTextTop{
+.headerTextTop {
   width: 100%;
   font-weight: 300;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.headerTextTop b{
+.headerTextTop b {
   font-weight: 400;
   font-size: 24px;
 }
 
-.headerTextTop p{
+.headerTextTop p {
   margin: 0;
 }
 
-.headerTextBot{
+.headerTextBot {
   /*width: 900px; */
   font-weight: 300;
   color: white;
 }
 
-.headerSpace{
+.headerSpace {
   height: 10%;
 }
 
@@ -70,7 +70,6 @@
   margin: auto;
 
   overflow: hidden;
-
 }
 
 .containerPara ul {
@@ -79,36 +78,55 @@
   animation: cambio 7s infinite;
 }
 .li1 {
-  padding-left: 1px; 
+  padding-left: 1px;
 }
 
-.containerPara ul, p {
-  margin: 0,
+.containerPara ul,
+p {
+  margin: 0;
 }
-.containerPara b{
+.containerPara b {
   font-weight: 400;
   font-size: 24px;
 }
 
 @keyframes cambio {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
 
-  0%{ margin-top: 0; }
-  10%{ margin-top: 0; }
+  20% {
+    margin-top: -40px;
+  }
+  30% {
+    margin-top: -40px;
+  }
 
-  20% { margin-top: -40px;}
-  30% { margin-top: -40px;}
+  40% {
+    margin-top: -80px;
+  }
+  50% {
+    margin-top: -80px;
+  }
 
-  40% { margin-top: -80px;}
-  50% { margin-top: -80px;}
+  60% {
+    margin-top: -120px;
+  }
+  70% {
+    margin-top: -120px;
+  }
 
-  60% { margin-top: -120px;}
-  70% { margin-top: -120px;}
+  80% {
+    margin-top: -40px;
+  }
+  90% {
+    margin-top: -40px;
+  }
 
-  80% { margin-top: -40px;}
-  90% { margin-top: -40px;}
-
-  100% { margin-top: 0;}
-
-}
-=======
+  100% {
+    margin-top: 0;
+  }
 }

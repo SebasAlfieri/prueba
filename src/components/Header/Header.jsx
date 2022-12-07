@@ -139,8 +139,8 @@ function Header() {
               <li className='li4'>la incidencia política.</li>
             </ul>      
           </div>
-        </div>
-      </div>
+        </HeaderTextTop>
+      </HeaderTextContainer>
       <div className="headerSpace"></div>
       <ParticlesBg type="cobweb" color="#00b380" num={200} bg={true} />
     </HeaderContainer>

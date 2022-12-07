@@ -25,7 +25,6 @@ function Personal (props) {
                 </div>
             </div>
         </div>
-    </div>
     )
 }
 

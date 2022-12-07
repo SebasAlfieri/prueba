@@ -90,34 +90,24 @@ function Project(props) {
 
   return (
 
-    <div data-aos="fade-up" data-aos-duration="1000" className='projectCard'>
-      <div className='projectCardImage'>
-        <img src="images/pyeph_logo.png" alt="" />
-      </div>
-      <div className="projectCardBottom">
-        <div className="projectCardTitle">
-
     <ProjectCard data-aos="fade-up" data-aos-duration="1000">
-      <ProjectCardImage className='projectCardImage'>
-        <img src="images/eclipse.svg" alt="proyecto"/>
+      <ProjectCardImage>
+        <img src="images/pyeph_logo.png" alt="" />
       </ProjectCardImage>
       <ProjectCardBottom>
         <ProjectCardTitle>
------
+
           <h3>{title}</h3>
         </ProjectCardTitle>
         <ProjectCardDescription>
           <p>{description}</p>
-----
-        </div>
-        <a  href='https://linktr.ee/pyeph' className="projectCardLink">Ver Proyecto</a>
-      </div>
-    </div>
 
         </ProjectCardDescription>
-        <ProjectCardLink href='#'>Ver Proyecto</ProjectCardLink>
+        <ProjectCardLink href='https://linktr.ee/pyeph'>Ver Proyecto</ProjectCardLink>
       </ProjectCardBottom>
     </ProjectCard>
+
+    
 
   )
 }

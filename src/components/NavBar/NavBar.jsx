@@ -1,8 +1,120 @@
 import React, { useState } from 'react'
 import "./NavBar.css"
+import styled from 'styled-components';
+import useIsMobile from "../../hooks/useIsMobile.ts";
+
+const NavBarContainer = styled.nav`
+  position: fixed;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: #662483;
+  z-index: 50;
+`
+
+const NavBarTitleContainer = styled.div`
+  display: flex;
+  width: 300px;
+  height: 100%;
+
+  @media (min-width: 1400px){
+    width: 400px;
+  }
+`
+
+const NavBarTitle = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  color: white;
+
+  h1{
+    animation-name: appear;
+    animation-duration: 1s;
+    font-size: 30px;
+
+    @media (min-width: 992px){
+      font-size: 40px;
+    }
+
+    @media (min-width: 1400px){
+      font-size: 60px;
+    }
+
+    span{
+      color: #00b380;
+    }
+  }
+`
+
+const NavBarLinks = styled.div`
+  display: flex;
+  height: 100%;
+  
+
+  ul{
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    white-space: nowrap;  
+    margin-right: 25px;
+
+  li{
+    border-top: 1vh solid rgba(0, 0, 0, 0);
+  border-bottom: 1vh solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s;
+
+  &:hover{
+    border-top: 1vh solid white;
+  }
+
+  a{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+
+    @media (min-width: 768px){
+
+    }
+
+    @media (min-width: 1200px){
+      font-size: 1.5rem;
+    }
+  }
+  }
+  }
+`
+
+
+
 
 function NavBar() {
 
+  const isMobile = useIsMobile();
   const [scroll, setScroll] = useState(false);
   const changeClass=()=>{
     const scrollValue=document.documentElement.scrollTop;
@@ -17,15 +129,22 @@ function NavBar() {
 
   window.addEventListener('scroll', changeClass);
 
+
+  console.log(window.innerWidth)
   return (
-    <div className='navBarContainer'>
-      <div className='navBarTitleContainer'>
-        <div className='navBarTitle'>
+    <>
+    {isMobile ?
+    <NavBarContainer>
+    </NavBarContainer>
+    :
+    <NavBarContainer>
+      <NavBarTitleContainer>
+        <NavBarTitle>
           <div className={scroll ?"none":"navBarIcon"}></div>
           <h1 className={scroll ?"":"none"}>refle<span>j</span>ar</h1>
-        </div>
-      </div>
-      <div className='navBarLinks'>
+        </NavBarTitle>
+      </NavBarTitleContainer>
+      <NavBarLinks>
         <ul>
           <li>
             <a href="#about">Qué hacemos</a>
@@ -40,8 +159,10 @@ function NavBar() {
             <a href="#contacto">Contacto</a>
           </li>
         </ul>
-      </div>
-    </div>
+      </NavBarLinks>
+    </NavBarContainer>
+  }
+    </>
   )
 }
 

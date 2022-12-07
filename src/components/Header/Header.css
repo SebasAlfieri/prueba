@@ -1,15 +1,4 @@
-header{
-  display: flex;
-  font-family: 'Ubuntu', sans-serif;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  height: 90vh;
-  width: 100%;
-  color: white;
-}
-
-.particles-bg-canvas-self{
+.particles-bg-canvas-self {
   background: #662483;
   }
 
@@ -120,4 +109,6 @@ header{
 
   100% { margin-top: 0;}
 
+}
+=======
 }

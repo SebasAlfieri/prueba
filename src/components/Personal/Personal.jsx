@@ -11,7 +11,7 @@ function Personal (props) {
 
     useEffect(() => {
         AOS.init();
-      }, [])
+    }, [])
     
     return (
         <div className="personalCard" data-aos="fade-up" data-aos-duration="1000">
@@ -25,6 +25,7 @@ function Personal (props) {
                 </div>
             </div>
         </div>
+    </div>
     )
 }
 

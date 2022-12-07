@@ -76,6 +76,10 @@ const HeaderTextContainer = styled.div`
 `
 
 const HeaderTextTop = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 90%;
   font-weight: 300;
   text-align: center;
@@ -95,6 +99,10 @@ const HeaderTextTop = styled.div`
   }
 
   p{
+    margin: 0;
+  }
+
+  ul{
     margin: 0;
   }
 `
@@ -131,7 +139,6 @@ function Header() {
           <p>para</p>
           {/* ▼ Acomodar centrar y ver espaciados :) ▼ */}
           <div className='containerPara'>
-          <p></p>
             <ul>
               <li className='li1'>acercarlos a la comunidad.</li>
               <li className='li2'>la toma de conciencia.</li>
@@ -142,7 +149,8 @@ function Header() {
         </HeaderTextTop>
       </HeaderTextContainer>
       <div className="headerSpace"></div>
-      <ParticlesBg type="cobweb" color="#00b380" num={200} bg={true} />
+      {isMobile ? <ParticlesBg type="cobweb" color="#00b380" num={0} bg={true} /> : <ParticlesBg type="cobweb" color="#00b380" num={200} bg={true} />}
+      
     </HeaderContainer>
   )
 }

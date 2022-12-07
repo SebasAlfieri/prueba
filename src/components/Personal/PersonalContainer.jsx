@@ -66,7 +66,12 @@ const PersonalBottomContainer = styled.div`
 
   @media (min-width: 768px){
     margin-top: 10vh;
-    gap: 30px;
+    gap: 60px;
+  }
+
+  @media (min-width: 768px){
+    margin-top: 10vh;
+    gap: 80px;
   }
 `
 
@@ -100,14 +105,12 @@ function PersonalContainer() {
         </p>
       </PersonalTextTop>
       <PersonalBottomContainer>
-        <div className="personalBottomLine" style={{marginBottom:"10vh"}}>
           <Personal img="card1.jpg" title="Pili Salaberría" paragraph="Feminista. Especialista en gestionar cosas y planificar escenarios posibles. Economista también."/>
           <Personal img="card2.jpg" title="Agu Collomb" paragraph="Economista y Científico de Datos. Agradecido del blues y la literatura"/>
           <Personal img="card3.jpg" title="Simón Lisandro Ayala" paragraph="Aficionado a la carpintería. Me doy maña para geolocalizar cosas. Fan de los juegos de mesa. Cientista de Datos. Economista también."/>
           <Personal img="card4.jpg" title="Pano Valdez" paragraph="Hacker de cabeza; músico y actor de corazón. Antropólogo en potencia. Me gusta la complejidad y el caos. Siempre ututo."/>
           <Personal img="card5.jpg" title="Mati Cena Trebucq" paragraph="Ecologista. Antiespecista. Docente. Agroecología como forma de vida. Economista en deconstrucción."/>
           <Personal img="card6.jpg" title="Caro Trogliero" paragraph="Obsesionada con la resolución de problemas. Fanática de la multiplicidad de realidades que nos habitan. Feminista. Ashtangui. Cientista de Datos. Economista."/>
-        </div>
       </PersonalBottomContainer>
       <Separador/>
     </PersonalMainContainer>

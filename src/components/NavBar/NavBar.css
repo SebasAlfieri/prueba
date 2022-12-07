@@ -1,12 +1,18 @@
 .navBarIcon {
   background-image: url(../../../public/images/iso.svg);
   background-position: center;
-  background-size: 180%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  width: 40%;
+  width: 200px;
   height: 90%;
   animation-name: appear;
   animation-duration: 1s;
+}
+
+@media (min-width: 1600px) {
+  .navBarIcon {
+    width: 250px;
+  }
 }
 
 .divisor {

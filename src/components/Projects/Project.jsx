@@ -74,10 +74,14 @@ const ProjectCardLink = styled.a`
   width: 60%;
   text-decoration: none;
   color: #1d1d1b;
-
+  border-radius: 25px;
+  padding: 5px 0;
+  transition: 0.2s;
   &:hover{
     background-color: rgb(209, 209, 209);
+    color: #662483;
   }
+
 `
 
 function Project(props) {
@@ -92,7 +96,7 @@ function Project(props) {
 
     <ProjectCard data-aos="fade-up" data-aos-duration="1000">
       <ProjectCardImage>
-        <img src="images/pyeph_logo.png" alt="" />
+        <img src="images/pyeph_logo.png" alt="pyehph logo" />
       </ProjectCardImage>
       <ProjectCardBottom>
         <ProjectCardTitle>

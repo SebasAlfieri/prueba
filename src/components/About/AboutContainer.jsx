@@ -36,7 +36,7 @@ function AboutContainer() {
   }, [])
 
   return (
-    <AboutMainContainer id='about'>
+    <AboutMainContainer>
       <h2 data-aos="fade-down">Qué hacemos</h2>
       <About 
         clase="AboutText plataformasDescription"
@@ -77,7 +77,7 @@ function AboutContainer() {
         /*description2="Brindamos herramientas tecnológicas para personas y organizaciones interesadas en ampliar sus conocimientos en temáticas sociales."*/
         /*description3="Brindamos herramientas tecnológicas para integrar conocimientos en temáticas sociales a través del análisis y visualización de datos."*/
       />
-      <div className='separador'></div>
+      <div className='separador' id='projects'></div>
     </AboutMainContainer>
   )
 }

@@ -137,7 +137,6 @@ function Header() {
         <HeaderTextTop>
           <b>Contamos historias a través del análisis de datos</b>
           <p>para</p>
-          {/* ▼ Acomodar centrar y ver espaciados :) ▼ */}
           <div className='containerPara'>
             <ul>
               <li className='li1'>acercarlos a la comunidad.</li>
@@ -148,7 +147,7 @@ function Header() {
           </div>
         </HeaderTextTop>
       </HeaderTextContainer>
-      <div className="headerSpace"></div>
+      <div className="headerSpace" id='about'></div>
       {isMobile ? <ParticlesBg type="cobweb" color="#00b380" num={0} bg={true} /> : <ParticlesBg type="cobweb" color="#00b380" num={200} bg={true} />}
       
     </HeaderContainer>

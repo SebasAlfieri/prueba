@@ -13,7 +13,7 @@ const ProyectsMainContainer = styled.div`
   width: 100%;
   height: fit-content;
   font-family: 'Ubuntu', sans-serif;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 
   @media (min-width: 768px){
     min-height: 100vh;
@@ -50,12 +50,22 @@ const ProjectsContainer = styled.div`
   }
 `
 
+const Separador = styled.div`
+  width: 50%;
+  height: 10px;
+  border-bottom: 1px solid #d9d9d9;
+
+  @media (max-width: 767px){
+    margin-top: 50px;
+  }
+`
+
 
 
 
 function Projects() {
   return (
-    <ProyectsMainContainer id='projects'>
+    <ProyectsMainContainer>
       <h2 data-aos="fade-down">Proyectos</h2>
       <ProjectsContainer>
         <Project
@@ -68,7 +78,7 @@ function Projects() {
           title="PYEPH"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores nostrum vel dolore, nihil debitis repellendus sint laboriosam iste. Quam."/>
       </ProjectsContainer>
-      <div className='separador'></div>
+      <Separador id="quienesSomos"/>
     </ProyectsMainContainer>
   )
 }

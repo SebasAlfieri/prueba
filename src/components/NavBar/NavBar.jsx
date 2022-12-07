@@ -179,7 +179,6 @@ function NavBar() {
   }
 
   window.addEventListener('scroll', changeClass);
-  console.log(window.innerWidth)
   return (
     <>
     {isMobile ?

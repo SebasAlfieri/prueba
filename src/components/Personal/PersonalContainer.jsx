@@ -89,7 +89,7 @@ function PersonalContainer() {
   }, []);
 
   return (
-    <PersonalMainContainer data-aos="fade-up" data-aos-duration="1000">
+    <PersonalMainContainer data-aos="fade-up" data-aos-duration="1000"  id='personalMobile'>
       <PersonalTextTop>
         <h2>Quiénes somos</h2>
         <p>

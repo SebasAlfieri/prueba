@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./NavBar.css"
 import styled from 'styled-components';
 import useIsMobile from "../../hooks/useIsMobile.ts";
+import useBodyScrollLock from '../../hooks/useBodyScrollLock';
 
 const NavBarContainer = styled.nav`
   position: fixed;
@@ -109,11 +110,56 @@ const NavBarLinks = styled.div`
   }
 `
 
+const NavMobileIcon = styled.div`
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: #ffffff76;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url("./images/menu-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  z-index: 99;
+`
+
+const Dropdown = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: fixed;
+  width: 100vw;
+  height: 400px;
+  background-color: #662483;
+  z-index: 100;
+  padding-top: 10px;
+`
+
+const LinksContainer = styled.div`
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 25px;
+  
+  a{
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+  }
+`
 
 
 
 function NavBar() {
-
+  const [isLocked, toggle] = useBodyScrollLock();
+  const [isActive, setIsActive] = useState(false)
   const isMobile = useIsMobile();
   const [scroll, setScroll] = useState(false);
   const changeClass=()=>{
@@ -127,15 +173,31 @@ function NavBar() {
     }
   }
 
+  function hangleToggle(){
+    setIsActive(!isActive)
+    toggle()
+  }
+
   window.addEventListener('scroll', changeClass);
-
-
   console.log(window.innerWidth)
   return (
     <>
     {isMobile ?
-    <NavBarContainer>
-    </NavBarContainer>
+    <>
+      <NavMobileIcon onClick={(e) => hangleToggle()}/>
+      {isActive && 
+      <Dropdown>
+        <NavBarTitle>
+          <h1>refle<span>j</span>ar</h1>
+        </NavBarTitle>
+        <LinksContainer>
+          <a href="#aboutMobile" onClick={(e) => hangleToggle()}>Qué Hacemos</a>
+          <a href="#projects" onClick={(e) => hangleToggle()}>Proyectos</a>
+          <a href="#quienesSomos" onClick={(e) => hangleToggle()}>Quiénes somos</a>
+          <a href="#contactMobile" onClick={(e) => hangleToggle()}>Contacto</a>
+        </LinksContainer>
+      </Dropdown>}
+    </>
     :
     <NavBarContainer>
       <NavBarTitleContainer>

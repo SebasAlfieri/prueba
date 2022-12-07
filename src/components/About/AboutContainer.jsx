@@ -37,14 +37,13 @@ function AboutContainer() {
 
   return (
     <AboutMainContainer>
-      <h2 data-aos="fade-down">Qué hacemos</h2>
+      <h2 data-aos="fade-down" id='aboutMobile'>Qué hacemos</h2>
       <About 
         clase="AboutText plataformasDescription"
         animation="fade-left"
         img="plataformas.webp"
         title="Plataformas Digitales"
         description1="Contamos historias usando datos y los reflejamos de manera accesible, clara y pedagógica a través de plataformas web."
-        /*description2="Construimos plataformas webs utilizando datos recabados en investigaciones sociales."*/
       />
       {isMobile ?
         <About

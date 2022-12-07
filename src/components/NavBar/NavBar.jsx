@@ -46,7 +46,11 @@ const NavBarTitle = styled.div`
     }
 
     @media (min-width: 1400px){
-      font-size: 60px;
+      font-size: 45px;
+    }
+
+    @media (min-width: 1600px){
+      font-size: 55px;
     }
 
     span{
@@ -98,11 +102,7 @@ const NavBarLinks = styled.div`
   height: 100%;
   width: 100%;
 
-    @media (min-width: 768px){
-
-    }
-
-    @media (min-width: 1200px){
+    @media (min-width: 1300px){
       font-size: 1.5rem;
     }
   }

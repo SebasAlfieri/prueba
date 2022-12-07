@@ -119,7 +119,9 @@ function About(props) {
 
 
   return (
-    <AboutSection style={{flexDirection}}>
+    <AboutSection data-aos="fade-up"
+    data-aos-offset="300"
+    data-aos-duration="500" style={{flexDirection}}>
         <AboutImgContainer>
           <AboutImg style={{backgroundImage: `url(images/${img})`}}/>
         </AboutImgContainer>

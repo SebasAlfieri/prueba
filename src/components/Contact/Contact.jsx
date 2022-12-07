@@ -126,7 +126,7 @@ function Contact(props) {
 
   return (
     <ContactSection data-aos="fade"
-    data-aos-offset="500"
+    data-aos-offset="300"
     data-aos-duration="500" id='contactMobile'>
         <ContactImgContainer>
           <ContactImg/>
